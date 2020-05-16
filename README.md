@@ -1,6 +1,8 @@
 # AntManChallenge
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.7.
+Simple CRUD consuming a Marvel API
+Using Git Flow, Custom Component 
 
 ## Development server
 
