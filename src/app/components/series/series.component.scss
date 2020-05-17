@@ -1,4 +1,4 @@
-app-comics{
+app-series{
     .container{
         display: flex;
         padding: 16px;
@@ -10,10 +10,9 @@ app-comics{
         height: 250px;
         margin: 20px;
         flex: 1;
-        border-radius: 5px;
         cursor: pointer;
+        border-radius: 5px;
     }
-
     .container .item img:hover {
         transform: scale(1.2);
     }

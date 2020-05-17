@@ -15,7 +15,6 @@ export class CharacterComponent implements OnInit {
 
   ngOnInit() {
     this.getCharacter(1010801);
-
   }
 
 
@@ -27,13 +26,6 @@ export class CharacterComponent implements OnInit {
      })
  }
 
- getCharacterSeries(idCharacter: number) {
-   this.appComponentService.getCharacterSeries(idCharacter)
-    .subscribe(data => {
-      console.log('Series', data)
 
-      // this.data = data.data.results[7];
-    })
- }
 
 }
