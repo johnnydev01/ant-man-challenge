@@ -1,0 +1,24 @@
+app-character{
+    
+    .container{
+        display: flex;
+        margin-left: -10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container img{
+        width: 50%;
+        height: 79vh;
+        border-radius: 20px;
+        margin-left: -10px;
+    
+    }
+    .container .text {
+        font-size: 2rem;
+        color: #000;
+        font-weight: bold;
+        text-align: center;
+        margin-right: 10%;
+    }
+}

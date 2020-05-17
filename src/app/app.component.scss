@@ -1,5 +1,5 @@
 app-root{
-    :host {
+    :host, .container {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
         font-size: 14px;
         color: #333;
@@ -27,11 +27,7 @@ app-root{
     
       .content {
         display: flex;
-        margin: 32px auto;
-        padding: 0 16px;
-        max-width: 960px;
+        margin-top: 32px;
         flex-direction: column;
-        align-items: center;
-        background-color: green;
       }
 }
