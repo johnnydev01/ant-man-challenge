@@ -35,4 +35,8 @@ export class AppComponentService {
      return this.http.get<any>(`${this.baseUrl}/characters/${idCharacter}/series${this.PARAMS}`, httpOptions);
    }
 
+   getComics(idCharacter) {
+    return  this.http.get<any>(`${this.baseUrl}/comics${this.PARAMS}&characters=${idCharacter}`)
+   }
+
 }

@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  BASE_URL: 'https://gateway.marvel.com/v1/public',
+  BASE_URL: 'https://gateway.marvel.com:443/v1/public',
+
 };
 
 /*

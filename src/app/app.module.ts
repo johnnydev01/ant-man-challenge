@@ -7,13 +7,15 @@ import { HeaderComponent } from './components/header/header.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MenuComponent } from './components/menu/menu.component';
 import { CharacterComponent } from './components/character/character.component';
+import { ComicsComponent } from './components/comics/comics.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     MenuComponent,
-    CharacterComponent
+    CharacterComponent,
+    ComicsComponent
   ],
   imports: [
     BrowserModule,

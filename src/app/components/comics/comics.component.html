@@ -1,0 +1,7 @@
+<section class="container wrap">
+
+    <div class="item" *ngFor="let comic of data">
+        <img src="{{comic.thumbnail.path}}.{{comic.thumbnail.extension}}" alt="">
+        <div class="description">{{comic.title}}</div>
+    </div>
+</section>

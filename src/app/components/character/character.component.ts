@@ -15,7 +15,6 @@ export class CharacterComponent implements OnInit {
 
   ngOnInit() {
     this.getCharacter(1010801);
-    this.getCharacterSeries(1010801);
 
   }
 
