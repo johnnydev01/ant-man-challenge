@@ -14,7 +14,6 @@ export class AppComponent implements OnInit{
 
   }
   ngOnInit(): void {
-    this.getCharacter(1010801);
   }
 
   thumbnail;
@@ -27,10 +26,5 @@ export class AppComponent implements OnInit{
       });
   }
 
-  getCharacter(id: number) {
-     this.appComponentService.getChacacterById(id)
-      .subscribe(data => {
-        this.thumbnail =  data.data.results[0].thumbnail;
-      })
-  }
+
 }

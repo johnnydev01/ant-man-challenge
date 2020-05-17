@@ -31,4 +31,8 @@ export class AppComponentService {
     return this.http.get<any[]>(`${this.baseUrl}/characters/${id}${this.PARAMS}`, httpOptions ); 
    }
 
+   getCharacterSeries(idCharacter) {
+     return this.http.get<any>(`${this.baseUrl}/characters/${idCharacter}/series${this.PARAMS}`, httpOptions);
+   }
+
 }
