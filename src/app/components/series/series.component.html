@@ -1,0 +1,7 @@
+<section class="container wrap">
+
+    <div class="item" *ngFor="let serie of data">
+        <img src="{{serie.thumbnail.path}}.{{serie.thumbnail.extension}}" alt="">
+        <div class="description">{{serie.title}}</div>
+    </div>
+</section>

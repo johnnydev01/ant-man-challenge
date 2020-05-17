@@ -1,8 +1,14 @@
 # AntManChallenge
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.7.
-Simple CRUD consuming a Marvel API
+Simple page consuming a Marvel API
 Using Git Flow, Custom Component 
+
+## Run Chrome
+press Windows + R  and paste on executar
+chrome.exe --disable-web-security --disable-gpu --user-data-dir=~/chromeTemp
+click ok
+
 
 ## Development server
 

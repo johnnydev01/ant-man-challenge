@@ -1,0 +1,36 @@
+app-series{
+    .container{
+        display: flex;
+        padding: 16px;
+        justify-content: center;
+    }
+
+    .container .item img{
+        width: 200px;
+        height: 250px;
+        margin: 20px;
+        flex: 1;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .container .item img:hover {
+        transform: scale(1.2);
+    }
+    .wrap {
+        flex-wrap: wrap;
+    }
+
+    .container .item .description {
+        margin-top: -20px;
+        margin-left: 20px;
+        text-align: center;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        color: #000;
+        font-weight: bold;
+        font-size: 1em;
+        word-wrap: break-word;
+    }
+
+}
