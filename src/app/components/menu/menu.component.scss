@@ -1,0 +1,24 @@
+app-menu{
+    .container {
+        margin-top: 6px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container .links{
+        display: flex;
+        justify-content: space-around;
+        margin-left: -75px;
+        width: 30%;
+    }
+    .container .links a {
+        color: #FAFAFA;
+        text-decoration: none;
+    }
+    .container .links a:hover {
+        font-size: 1.2rem;
+        opacity: 0.2;
+        transition: opacity .3s;
+    }
+
+}
